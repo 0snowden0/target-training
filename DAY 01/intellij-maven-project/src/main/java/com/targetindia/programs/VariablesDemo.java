@@ -13,5 +13,15 @@ public class VariablesDemo {
 
         System.out.println("b1 = "+b1);
 
+        String st1 = "1000";
+        String st2 = "2000";
+        String st3 = st1+st2;
+        System.out.println("st3 = "+st3);
+
+        int n1 = Integer.parseInt(st1);
+        int n2 = Integer.parseInt(st2);
+        int n3 = n1+n2;
+        System.out.println("n3 = "+n3);
+
     }
 }
